@@ -1,0 +1,199 @@
+body{
+font-family: 'Ubuntu', sans-serif;
+}
+
+.Header{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto; /*устанавливает по цетру*/
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between; /*чтобы расположить от края до края*/
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: 700;
+    padding-top: 30px;
+
+}
+
+.Wrap{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto; /*устанавливает по цетру*/
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box; /*растягивание элемента до ширины родителя*/
+}
+.nav{
+    display: flex;
+    list-style-type: none; /*убирает точки в спискач li*/
+    justify-content: flex-start; /*чтобы элементы стали в ряд*/
+    font-size: 14px;
+    Font-Family: Ubuntu, sans-serif;
+    align-items: center;
+
+}
+.nav li{
+    margin-left: 15px;
+    color:#202020;
+    text-decoration: none;
+}
+.nav_memu{
+    text-decoration: none;
+}
+.nav_button{
+    background-color: #00aedb;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-weight: 700;
+}
+
+.logo{
+  display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+
+
+.title_main{
+font-size: 57px;
+    color: #202020;
+    font-weight: 700;
+
+}
+
+.text_main{
+    font-size: 32px;
+    color: #4F4F4F;
+    line-height: 1.5;
+}
+.button{
+    background-color: #00aedb;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 58px;
+    border: none;
+    font-size: 24px;
+}
+.Page{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative; /*чтобы можно было установить заголовок как нужно*/
+
+}
+.Page_Top{
+    border-top: 1px solid #C2C2C2 ; /*нарисовали линию*/
+}
+
+ h2{
+    font-size: 14px;
+    font-weight: 300;
+    background-color: white;
+    padding-top: 80px;
+    color: #C2C2C2;
+
+}
+ .Services{
+     display: grid;
+     grid-template: 50% 50% / 50% 50% ;/* делим блок сервис на 4 части с пом. гридов*/
+ }
+
+ .Services_item{
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+ }
+
+ .Services_img{
+    /* flex-basis: 120px;*/  /*свойство flex-basis задает базовый размер флекс элемента по основной оси. Это свойство определяет размер контент-бокса, если не задано иначе через box-sizing*/
+text-align: center;
+padding-right: 30px;
+ }
+ .Services h3{
+     font-size: 28px;
+     color:  #000000;
+     font-weight: 400;
+ }
+.Services p{
+    font-size: 14px;
+    color:  #B2B2B2;
+    line-height: 1.5; /*устанавливает межстрочный интервал текста*/
+
+}
+.clients{
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 25%);
+    text-align: center;
+    grid-row-gap: 40px;
+    padding-top: 0;
+}
+.team{
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr); /*указываем 3 колонки и 3 строчки*/
+    grid-row-gap: 51px;
+    padding: 10px;
+}
+.team_items{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.team_items img{
+  width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.team_items div{
+flex-basis:calc(100%- 100px) ;
+}
+
+.team_items h3{
+    font-size: 28px;
+    color: #202020;
+}
+.team_items p{
+    font-size: 14px;
+    color: #B2B2B2;
+    margin-bottom: 0;
+}
+.social{
+  list-style-type: none;
+    display: flex;
+padding-left: 0;
+    margin-left: 10px;
+}
+.social li a{
+
+    text-decoration: none;
+    color: #B2B2B2;
+    font-size: 24px;
+
+}
+.social li{
+    padding-left: 40px;
+
+}
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #F7F7F7;
+
+
+}
+.Wrap_box_footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer_img{
+
+}
